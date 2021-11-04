@@ -7,12 +7,14 @@ function CreateTodoButton(props) {
   };
   
   return (
+    /*
     <button
-      className="CreateTodoButton"
+      className="CreateTodoButton" 
       onClick={onClickButton}
-    >
-      +
-    </button>
+    >+
+    </button>*/
+
+  <a href="#" className="button" onClick={onClickButton}><span>✓</span>Nueva Tarea</a>
   );
 }
 
